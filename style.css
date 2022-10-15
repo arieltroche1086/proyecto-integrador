@@ -1,0 +1,258 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+list-style-type: none;
+font-family: 'Murecho', sans-serif;
+  }
+
+  :root{
+    --azul: #1FAFBF
+
+
+
+}
+
+
+header{
+background: var(--azul);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 50px;
+    font-family: 'Murecho', sans-serif;
+}
+header a{
+    color: white;
+}
+
+
+.logo{
+    width: 185px;
+  height: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.navbar-list{
+    display: flex;
+    gap: 20px;
+}
+
+.carrito{
+    height: 40px;
+    border-style:  solid ;
+    
+    border-color: white;
+    padding: 5px;
+}
+
+.imagen-hero{
+
+    height: 450px;
+}
+
+.hero{
+    padding: 60px 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+.banner-text{
+    color: grey;
+    width: 400px;
+}
+
+.hero h1{
+    font-size: 50px;
+}
+
+
+
+
+.boton-ver-todas {
+    color: grey;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-style: solid;
+border-color: var(--azul);
+}
+
+.banner-text{
+display: flex;
+flex-direction: column;
+gap: 20px
+;
+}
+
+.banner-text p{
+    font-size: 18px;
+}
+
+.card-excursiones{
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+.card-excursiones{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+    background: #73D9CF;
+    height: 350px;
+    width: 250px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.lista-excursiones img{
+    height: 200px;
+    border-radius: 30px;
+
+}
+.lista-excursiones a{
+
+border-style: solid;
+
+    padding: 5px;
+
+
+    height: 200px;
+    width: 100px;
+    color: white;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.info-card p {
+    text-align: center;
+}
+.lista-excursiones{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 0px 100px;
+
+}
+.secciones{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.sobre-mi{
+    background: var(--azul);
+    height: 400px;
+width: auto;   
+ display: flex;
+    align-items: center;
+justify-content: space-around;
+padding: 100px;
+margin-top: 50px;
+
+
+}
+
+.sobre-mi h3{
+    font-size: 25px;
+    color: white;
+}
+
+.info-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-personal p{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario h3{
+    font-size: 20px;
+margin-bottom: 30px;
+}
+
+
+footer{
+    height: 100px;
+    width: auto;
+    background: var(--azul);
+}
+.formulario1{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.formulario-mapa{
+    display: flex;
+}
+
+.info-sobre-mi{
+    font-size: 18px;
+    color: white;
+    width: 600px;
+}
+
+
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-toggle,
+#cart-toggle,
+.menu-label{
+  display: none;
+}
+
+.titulo-excursiones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
